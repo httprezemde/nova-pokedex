@@ -1,12 +1,25 @@
-# nova-pokedex
-✨ Funcionalidades Principais: O projeto atende a todos os requisitos de filtragem, paginação, estilização e exibição de dados de estatísticas:FuncionalidadeDescriçãoBusca e HistóricoPermite pesquisar um Pokémon específico por nome ou ID. O histórico de pesquisas recentes é armazenado e exibido para fácil acesso. Lista e Paginação. Exibe uma lista paginada dos primeiros 150 Pokémons. Implementa botões Anterior/Próximo para navegar pelo catálogo.Detalhes do Cartão ao clicar em um card da lista ou usar a busca, um painel detalhado é exibido.Estilização por Tipo de card de detalhes aplica cores dinâmicas (no título, no badge de tipo e nas barras de status) com base no tipo primário do Pokémon. Estatísticas Visuais. Exibe as estatísticas básicas (HP, Ataque, Defesa, etc.) usando barras de progresso calculadas dinamicamente para fornecer uma representação visual clara do poder do Pokémon 
+🚀 Projeto Pokedex
+Este é um projeto que demonstra a aplicação de conceitos de desenvolvimento web para consumir a PokeAPI e exibir informações detalhadas e estilizadas sobre os Pokémon.
 
-Tecnologias Utilizadas
-Este projeto foi construído utilizando as bases do desenvolvimento web:
+✨ Funcionalidades Principais
+O projeto atende a todos os requisitos de filtragem, paginação, estilização e exibição de dados de estatísticas de Pokémon.
 
-HTML5: Estrutura semântica do projeto.
+🔍 Busca e Histórico: Permite pesquisar um Pokémon específico por nome ou ID. O histórico das pesquisas recentes é armazenado e exibido para fácil acesso.
 
-CSS3: Estilização, layout responsivo e garantia de um alto contraste de leitura (resolvendo o problema de legibilidade em cards de Pokémons escuros).
+📜 Lista e Paginação: Exibe uma lista paginada dos primeiros 150 Pokémons. Implementa botões "Anterior" e "Próximo" para navegar pelo catálogo.
+
+🖼️ Detalhes do Cartão: Ao clicar em um card da lista ou utilizar a busca, um painel detalhado do Pokémon é exibido.
+
+🎨 Estilização por Tipo: O card de detalhes aplica cores dinâmicas (no título, no badge de tipo e nas barras de status) com base no tipo primário do Pokémon.
+
+📊 Estatísticas Visuais: Exibe as estatísticas básicas (HP, Ataque, Defesa, etc.) usando barras de progresso calculadas dinamicamente para fornecer uma representação visual clara do poder do Pokémon.
+
+🛠️ Tecnologias Utilizadas
+Este projeto foi construído utilizando as bases do desenvolvimento web moderno:
+
+HTML5: Utilizado para a estrutura semântica do projeto.
+
+CSS3: Responsável pela estilização, layout responsivo e por garantir um alto contraste de leitura (resolvendo o problema de legibilidade em cards de Pokémons de cor escura).
 
 JavaScript (ES6+):
 
@@ -16,17 +29,16 @@ Renderização dinâmica de elementos (cards, barras de status, histórico).
 
 Lógica de paginação e controle de estado.
 
-🚀 Como Executar o Projeto Localmente:
+💡 Como Executar o Projeto Localmente
+O projeto consiste apenas em arquivos estáticos e não requer um servidor local para execução.
 
 Clone o Repositório:
 
 Bash
 
-git clone [LINK_DO_SEU_REPOSITORIO]
-cd nome-do-projeto
-Abra os Arquivos: O projeto consiste apenas em arquivos estáticos (index.html, script.js e CSS embutido).
-
-Execute no Navegador: Abra o arquivo index.html diretamente em seu navegador (ex: dê um duplo clique no arquivo). Não é necessário servidor local.
+git clone (https://github.com/httprezemde/nova-pokedex)
+cd nova-pokedex
+Execute no Navegador: Abra o arquivo index.html diretamente em seu navegador (por exemplo, dando um duplo clique no arquivo).
 
 🔗 Fonte dos Dados
 Os dados de Pokémon (nomes, IDs, tipos, sprites e estatísticas) são fornecidos pela:
