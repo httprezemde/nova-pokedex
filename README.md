@@ -16,7 +16,8 @@ Renderização dinâmica de elementos (cards, barras de status, histórico).
 
 Lógica de paginação e controle de estado.
 
-🚀 Como Executar o Projeto Localmente
+🚀 Como Executar o Projeto Localmente:
+
 Clone o Repositório:
 
 Bash
